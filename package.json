@@ -1,0 +1,22 @@
+{
+  "name": "pliegue",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc && node scripts/prepare.mjs",
+    "start": "node scripts/serve.mjs",
+    "dev": "npm run build && npm start"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.27",
+    "@types/react-dom": "18.3.7",
+    "typescript": "5.9.3"
+  }
+}
